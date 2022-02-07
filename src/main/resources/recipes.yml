@@ -1,0 +1,266 @@
+cobble:
+    enabled: true
+    result_amount: 1
+    shapeless: true
+    recipe:
+        1: stone_dust
+        2: stone_dust
+        3: air
+        4: stone_dust
+        5: stone_dust
+        6: air
+        7: air
+        8: air
+        9: air
+cobblestone:
+    enabled: true
+    result_amount: 1
+    shapeless: true
+    recipe:
+        1: cobble
+        2: cobble
+        3: air
+        4: cobble
+        5: cobble
+        6: air
+        7: air
+        8: air
+        9: air
+stone:
+    enabled: true
+    result_amount: 1
+    shapeless: true
+    recipe:
+        1: cobblestone
+        2: cobblestone
+        3: air
+        4: cobblestone
+        5: cobblestone
+        6: air
+        7: air
+        8: air
+        9: air
+compacted_stone:
+    enabled: true
+    result_amount: 1
+    shapeless: true
+    recipe:
+        1: air
+        2: stone
+        3: air
+        4: stone
+        5: stone_needle
+        6: stone
+        7: air
+        8: stone
+        9: air
+stone_stick:
+    enabled: true
+    result_amount: 1
+    shapeless: true
+    recipe:
+        1: air
+        2: stone
+        3: air
+        4: air
+        5: stone
+        6: air
+        7: air
+        8: air
+        9: air
+stone_hammer:
+    enabled: true
+    result_amount: 1
+    shapeless: false
+    recipe:
+        1: air
+        2: stone
+        3: air
+        4: air
+        5: stone_stick
+        6: stone
+        7: stone_stick
+        8: air
+        9: air
+stone_needle:
+    enabled: true
+    result_amount: 1
+    shapeless: true
+    recipe:
+        1: air
+        2: stone
+        3: air
+        4: air
+        5: stone_stick
+        6: air
+        7: air
+        8: air
+        9: air
+stone_composter:
+    enabled: true
+    result_amount: 1
+    shapeless: false
+    recipe:
+        1: cobblestone
+        2: air
+        3: cobblestone
+        4: cobblestone
+        5: air
+        6: cobblestone
+        7: cobblestone
+        8: stone
+        9: cobblestone
+stone_chest:
+    enabled: true
+    result_amount: 1
+    shapeless: false
+    recipe:
+        1: cobblestone
+        2: stone
+        3: cobblestone
+        4: cobblestone
+        5: air
+        6: cobblestone
+        7: cobblestone
+        8: stone
+        9: cobblestone
+leather:
+    enabled: true
+    result_amount: 1
+    shapeless: false
+    recipe:
+        1: rotten_flesh
+        2: rotten_flesh
+        3: rotten_flesh
+        4: rotten_flesh
+        5: rotten_flesh
+        6: rotten_flesh
+        7: rotten_flesh
+        8: rotten_flesh
+        9: rotten_flesh
+hilt:
+    enabled: true
+    result_amount: 1
+    shapeless: false
+    recipe:
+        1: air
+        2: leather
+        3: air
+        4: leather
+        5: stone_stick
+        6: leather
+        7: air
+        8: leather
+        9: air
+oak_wood:
+    enabled: true
+    result_amount: 2
+    shapeless: true
+    recipe:
+        1: air
+        2: air
+        3: air
+        4: air
+        5: oak_log
+        6: air
+        7: air
+        8: air
+        9: air
+wooden_conveyor:
+    enabled: true
+    result_amount: 1
+    shapeless: false
+    recipe:
+        1: oak_log
+        2: redstone
+        3: oak_log
+        4: air
+        5: oak_wood
+        6: oak_wood
+        7: oak_wood
+        8: air
+        9: oak_wood
+wooden_spike:
+    enabled: true
+    result_amount: 1
+    shapeless: false
+    recipe:
+        1: air
+        2: oak_log
+        3: air
+        4: oak_wood
+        5: stone_needle
+        6: oak_wood
+        7: oak_wood
+        8: oak_wood
+        9: oak_wood
+basic_engine:
+    enabled: true
+    result_amount: 1
+    shapeless: false
+    recipe:
+        1: redstone
+        2: oak_wood
+        3: redstone
+        4: oak_wood
+        5: compacted_stone
+        6: oak_wood
+        7: redstone
+        8: oak_wood
+        9: redstone
+charcoal_kiln:
+    enabled: true
+    result_amount: 1
+    shapeless: false
+    recipe:
+        1: oak_wood
+        2: oak_log
+        3: oak_wood
+        4: compacted_stone
+        5: basic_engine
+        6: compacted_stone
+        7: oak_wood
+        8: piece_of_magma
+        9: oak_wood
+fuel_engine:
+    enabled: true
+    result_amount: 1
+    shapeless: false
+    recipe:
+        1: piece_of_magma
+        2: compacted_stone
+        3: piece_of_magma
+        4: leather
+        5: stone_chest
+        6: leather
+        7: piece_of_magma
+        8: leather
+        9: piece_of_magma
+basic_cobblestone_generator:
+    enabled: true
+    result_amount: 1
+    shapeless: false
+    recipe:
+        1: air
+        2: compacted_stone
+        3: air
+        4: redstone
+        5: basic_engine
+        6: redstone
+        7: compacted_stone
+        8: fuel_engine
+        9: compacted_stone
+stone_crafting_table:
+    enabled: true
+    result_amount: 1
+    shapeless: true
+    recipe:
+        1: stone
+        2: stone
+        3: air
+        4: stone
+        5: stone
+        6: air
+        7: air
+        8: air
+        9: air

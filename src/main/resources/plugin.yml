@@ -1,0 +1,54 @@
+name: AsarSMP
+version: '${project.version}'
+main: asar_development.asarsmp.AsarSMP
+api-version: 1.18
+depend:
+- Vault
+- LuckPerms
+- NBTAPI
+permissions:
+    # ------------- COMMANDS -------------
+    server.commands.*:
+        description: Access to all commands including admin commands
+        children:
+            server.commands.admin: true
+    server.commands.admin.*:
+        description: Access to admin commands
+        children:
+            server.commands.admin.server: true
+            server.commands.admin.get: true
+    server.commands.admin.server:
+        description: Access to /server command
+    server.commands.admin.get:
+        description: Access to /server command
+    server.commands.discord:
+        description: Access to /discord command
+    server.commands.emoji:
+        description: Access to /emojis command
+
+    # -------------  CHAT  -------------
+    server.chat.*:
+        description: Access to all commands including admin commands
+        children:
+            server.chat.emoji.*: true
+    server.chat.emoji.*:
+        description: Ability to send all of the emojis in chat messages
+commands:
+    discord:
+        description: Access our discord server!
+        permission: server.commands.discord
+        aliases: dc
+    emojis:
+        description: View all of the emojis!
+        permission: server.commands.emoji
+        aliases: emoji
+    get:
+        description: test
+        permission: server.commands.get
+    server:
+        description: Main command
+        permission: server.commands.admin
+    blockdata:
+        description: A debug command
+        permission: server.commands.blockdata
+        aliases: bd

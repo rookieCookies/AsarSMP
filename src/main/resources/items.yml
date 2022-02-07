@@ -1,0 +1,288 @@
+# NEVER IN ANY CASE REMOVE THE DEFAULT ITEM!
+
+default:
+    enabled: true
+    type: item
+    material: stone
+    display_name: "Unknown Error"
+    rarity: common
+
+  # NEVER IN ANY CASE REMOVE THE DEFAULT ITEM!
+
+# ----------------------------- OTHER ITEMS -----------------------------
+
+
+cobble:
+    enabled: true
+    type: item
+    cmd: 1
+    material: stone_button
+    display_name: "&fCobble"
+stone_dust:
+    enabled: true
+    type: item
+    cmd: 1
+    material: gray_dye
+    display_name: "&fStone Dust"
+oak_sapling:
+    enabled: true
+    type: item
+    material: oak_sapling
+    display_name: "&fOak Sapling"
+oak_log:
+    enabled: true
+    type: item
+    display_name: "&fOak Log"
+    material: oak_log
+oak_wood:
+    enabled: true
+    type: item
+    display_name: "&fOak Wood"
+    material: oak_wood
+fertilizer:
+    enabled: true
+    type: item
+    cmd: 1
+    display_name: "&fFertilizer"
+    material: bone_meal
+cobblestone:
+    enabled: true
+    type: block
+    display_name: "&fCobblestone"
+    material: cobblestone
+stone:
+    enabled: true
+    type: block
+    display_name: "&fStone"
+    material: stone
+stone_chest:
+    enabled: true
+    type: block
+    cmd: 1
+    display_name: "&fStone Chest"
+    material: chest
+redstone:
+    enabled: true
+    type: item
+    display_name: "&fRedstone"
+    material: redstone
+piece_of_magma:
+    enabled: true
+    type: item
+    cmd: 1
+    display_name: "&fPiece Of Magma"
+    material: magma_cream
+basic_engine:
+    enabled: true
+    type: item
+    cmd: 1
+    display_name: "&fBasic Engine"
+    material: iron_ingot
+charcoal_kiln:
+    enabled: true
+    type: block
+    cmd: 1
+    display_name: "&fCharcoal Kiln"
+    material: coal_block
+fuel_engine:
+    enabled: true
+    type: item
+    cmd: 1
+    display_name: "&fFuel Engine"
+    material: lava_bucket
+basic_cobblestone_generator:
+    enabled: true
+    type: item
+    cmd: 1
+    display_name: "&fBasic Cobblestone Generator"
+    material: cobblestone
+wooden_spike:
+    enabled: true
+    type: block
+    cmd: 1
+    display_name: "&fWooden Spike"
+    material: orange_terracotta
+wooden_conveyor:
+    enabled: true
+    type: block
+    cmd: 1
+    display_name: "&fWooden Conveyor"
+    material: yellow_terracotta
+compacted_stone:
+    enabled: true
+    type: item
+    cmd: 1
+    display_name: "&fCompacted Stone"
+    material: stone
+rotten_flesh:
+    enabled: true
+    type: item
+    display_name: "&fRotten Flesh"
+    material: rotten_flesh
+leather:
+    enabled: true
+    type: item
+    display_name: "&fLeather"
+    material: leather
+hilt:
+    enabled: true
+    type: item
+    cmd: 1
+    display_name: "&fHilt"
+    material: leather
+gravel:
+    enabled: true
+    type: block
+    display_name: "&fGravel"
+    material: gravel
+dirt:
+    enabled: true
+    type: block
+    display_name: "&fDirt"
+    material: dirt
+grass_block:
+    enabled: true
+    type: block
+    display_name: "&fGrass Block"
+    material: grass_block
+sand:
+    enabled: true
+    type: block
+    display_name: "&fSand"
+    material: sand
+stone_stick:
+    enabled: true
+    type: item
+    cmd: 1
+    display_name: "&fStone Stick"
+    material: stick
+torch:
+    enabled: true
+    type: item
+    cmd: 1
+    display_name: "&fTorch"
+    material: torch
+flesh:
+    enabled: true
+    type: item
+    cmd: 1
+    display_name: "&fFlesh"
+    material: rotten_flesh
+stone_crafting_table:
+    enabled: true
+    type: block
+    cmd: 1
+    display_name: "&fStone Crafting Table"
+    material: crafting_table
+stone_hammer:
+    enabled: true
+    type: tool
+    cmd: 1
+    display_name: "&fStone Hammer"
+    material: stone_axe
+stone_composter:
+    enabled: true
+    type: item
+    cmd: 1
+    display_name: "&fStone Composter"
+    material: composter
+stone_sword:
+    enabled: true
+    type: weapon
+    display_name: "&fStone Sword"
+    material: stone_sword
+    stats:
+        attack_damage:
+            value: 3
+            operation: add
+            slot: mh
+stone_needle:
+    enabled: true
+    type: tool
+    cmd: 1
+    display_name: "&fStone Needle"
+    material: stone_sword
+    lore:
+        - "&8Due to it's unsafe nature"
+        - "&8using it might hurt a little."
+    stats:
+        attack_damage:
+            value: 1
+            operation: add
+            slot: mh
+stone_helmet:
+    enabled: true
+    type: armor
+    cmd: 1
+    display_name: "&fStone Helmet"
+    material: leather_helmet
+    stats:
+        armor:
+            value: 1
+            operation: add
+            slot: h
+        speed:
+            value: 0.9
+            operation: multiply
+            slot: h
+    color:
+        r: 157
+        g: 157
+        b: 151
+stone_chestplate:
+    enabled: true
+    type: armor
+    cmd: 1
+    display_name: "&fStone Chestplate"
+    material: leather_chestplate
+    stats:
+        armor:
+            value: 1.5
+            operation: add
+            slot: c
+        speed:
+            value: 0.9
+            operation: multiply
+            slot: c
+    color:
+        r: 157
+        g: 157
+        b: 151
+stone_leggings:
+    enabled: true
+    type: armor
+    cmd: 1
+    display_name: "&fStone Leggings"
+    material: leather_leggings
+    stats:
+        armor:
+            value: 1.2
+            operation: add
+            slot: l
+        speed:
+            value: 0.9
+            operation: multiply
+            slot: l
+    color:
+        r: 157
+        g: 157
+        b: 151
+stone_boots:
+    enabled: true
+    type: armor
+    cmd: 1
+    display_name: "&fStone Boots"
+    material: leather_boots
+    stats:
+        armor:
+            value: 0.8
+            operation: add
+            slot: f
+        speed:
+            value: 0.9
+            operation: multiply
+            slot: f
+    color:
+        r: 157
+        g: 157
+        b: 151

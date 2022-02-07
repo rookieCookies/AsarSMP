@@ -1,0 +1,84 @@
+messages:
+    discord_hover: "&9Click here!"
+    insufficient_arguments: "&7[&4&l!&7] This method requires at least &a{0}&7 arguments!"
+    invalid_argument: "&7[&4&l!&7] The arguments provided are not valid, please check the tab completion for valid arguments!"
+broadcast:
+    initial_delay: 0
+    period: 2400 # In ticks
+    messages:
+    - "&9Do /discord to join our discord, it's much appreciated!"
+    - "&eIf you can&a advertising (/ad)&e the server in the&b MineHut Lobby &eis much appreciated and means a lot to us!"
+file_management:
+    items_file: items
+    recipes_file: recipes
+    block_data: block_data
+commands:
+    discord:
+        link: "https://discord.gg/EZkgK8Kjxt"
+        hover: "&9Click here!"
+    emojis:
+        page_size: 10
+custom_items:
+    wooden_spike:
+        idle_damage: 2
+        idle_period: 30
+        fall_damage: 1 # Damage increment per block
+    wooden_conveyor:
+        period: 5 # Damage increment per block
+        speed: 0.1
+    stone_needle:
+        use_damage: 1
+        flesh_damage: 4
+    stone_chest:
+        title: "&7Stone Chest"
+        size: 1
+    food:
+        flesh:
+            food_level: 2
+            saturation: 3
+            instant_regen: 2
+emojis:
+- "#ff8787❤ | <3 | heart"
+- "#d6d6d6🗡 | :sword: | sword"
+- "#c49c70🏹 | :bow: | bow"
+- "#c49c70🪓 | :axe: | axe"
+- "#c49c70⛏ | :pickaxe: | pickaxe"
+- "#c49c70🎣 | :rod: | fishing_rod"
+- "#99eb81🛡 | :shield: | shield"
+- "#b8f1f5🔱 | :trident: | trident"
+- "#f1b8f5🧪 | :potion: | potion"
+- "#f1b8f5⚗ | :splash_potion: | splash_potion"
+- "#b9faf1✎ | :pencil: | pencil"
+- "#eed9ff♪ | :note: | note"
+- "#f6fff5∞ | :infinity: | infinity"
+- "#ffd9eb✂ | :shears: | shears"
+- "☯ | :yinyang: | yinyang"
+- "™ | :tm: | trademark"
+- "© | :copyright: | copyright"
+- "#fffdba✮ | :star: | star"
+- "#fffdba✦ | :star_2: | star_2"
+- "#fffdba✧ | :star_3: | star_3"
+- "#ffe985☀ | :sun: | sun"
+- "#96bdff☽ | :moon: | moon"
+- "#d9fff8☁ | :cloud: | cloud"
+- "#f2f7ff☃ | :snowman: | snowman"
+- "#fafafa✈ | :airplane: | airplane"
+- "#ffb0ca◎ | :target: | target"
+- "#c9ffd1✙ | :plus: | plus"
+- "#acff87✔ | :yes: | yes"
+- "#ff5454✖ | :no: | no"
+- "#fae2b9☞ | :point_right: | point_right"
+- "#fae2b9☜ | :point_left: | point_left"
+- "▁ | :box_1: | box_1"
+- "▂ | :box_2: | box_2"
+- "▃ | :box_3: | box_3"
+- "▄ | :box_4: | box_4"
+- "▅ | :box_5: | box_5"
+- "▆ | :box_6: | box_6"
+- "▇ | :box_7: | box_7"
+- "█ | :box_8: | box_8"
+- "↑ | :arrow_up: | arrow_up"
+- "↓ | :arrow_down: | arrow_down"
+- "→ | :arrow_right: | arrow_right"
+- "← | :arrow_left: | arrow_left"
+- "↔ | :arrow_double: | arrow_double"
